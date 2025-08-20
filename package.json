@@ -1,0 +1,14 @@
+{
+  "name": "unplayed",
+  "version": "2.0.0",
+  "description": "Games I want to play, games I'm playing, and games I've played.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "marked": "^5.1.2",
+    "mustache": "^4.2.0",
+    "typogr": "^0.6.8"
+  },
+  "license": "MIT"
+}
