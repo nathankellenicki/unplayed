@@ -4,7 +4,7 @@ In 2011, [Shaun Inman](https://web.archive.org/web/20230317115925/https://shauni
 
 But time moves on. PHP hosting has become more expensive and harder to find. For better or for worse modern web development has changed. The original Unplayed needed a refresh to work in today's world.
 
-This version brings Unplayed into the modern era while preserving everything that made the original great. Instead of PHP, it uses Node.js to process the same markdown files and generate a static HTML file. The styling is identical. The structure is the same. But now it builds to a single HTML file that can be hosted anywhere, for free.
+This version brings Unplayed into the modern era while preserving everything that made the original great. Instead of PHP, it uses Node.js to process the same markdown files and generate a static HTML file. The styling is identical. The structure is the same. But now it builds to a single HTML file that can be hosted anywhere.
 
 ## How It Works
 
