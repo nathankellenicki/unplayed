@@ -9,7 +9,7 @@ function formatText(str) {
 }
 
 function processMarkdown(content) {
-  const withTypography = typogr.typogrify(content);
+  const withTypography = typogr(content).chain().smartypants().amp().initQuotes().value();
   const htmlContent = marked(withTypography, {
     mangle: false,
     headerIds: false
